@@ -1,6 +1,7 @@
 $: << File.dirname(File.realpath(__FILE__))
 
 require 'gosu' unless RUBY_ENGINE == 'mruby'
+require 'version'
 
 require 'exts/fsm'
 require 'exts/state'
@@ -21,13 +22,13 @@ class THARWindow < Gosu::Window
     @last_ms = 0.0
 
     @fsm = FSM.new(self)
-    @fsm.add(:start, StateStart.new)
-    @fsm.add(:menu, StateMenu.new)
     @fsm.add(:game, StateGame.new)
 
     @fsm.go(:game)
 
     @resizer = Resizer.new(WIDTH, HEIGHT)
+
+    puts "The Humans Are Rebelling! v#{VERSION}"
   end
 
   def update
