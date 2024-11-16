@@ -6,7 +6,7 @@ require 'game_objects/bullet'
 require 'libs/aniruby/aniruby'
 
 class Human
-  include RandomExt
+  include RandomExtension
 
   attr_reader :x, :y, :w, :h, :death_sfx
   attr_writer :alive, :start_death

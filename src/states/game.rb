@@ -6,14 +6,14 @@ require 'game_objects/player'
 require 'game_objects/human'
 
 class StateGame < State
-  include RandomExt
+  include RandomExtension
 
   TILE_WIDTH = 32
   TILE_HEIGHT = 32
 
   # Grab all the room files except special paths
   ROOMS = Dir.entries("../assets/rooms/").reject! { |e| e == '..' || e == '.' ||
-                                                    e == 'start.dat'}
+                                                        e == 'start.dat'}
 
   def initialize
     @level = Room.load_file('../assets/rooms/start.dat')
