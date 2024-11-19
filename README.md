@@ -40,7 +40,7 @@ But I'll see what I can do in the future.
 
 #### Third-party
 
-Unifont ⁃ [OFL 1.1 license](https://unifoundry.com/OFL-1.1.txt).
+Unifont - [OFL 1.1 license](https://unifoundry.com/OFL-1.1.txt).
 
 ### Code
 
