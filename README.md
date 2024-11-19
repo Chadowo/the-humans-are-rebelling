@@ -11,8 +11,8 @@ The easiest way is to download the game from [itch.io](https://chadow.itch.io/th
 
 ### Controls
 
-<kbd>↑</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>↓</kbd> - Movement.  
-<kbd>Space</kbd> - Shoot!
+- <kbd>↑</kbd> <kbd>←</kbd> <kbd>→</kbd> <kbd>↓</kbd> - Movement.  
+- <kbd>Space</kbd> - Shoot!
 
 ## Development
 
