@@ -36,6 +36,8 @@ class FSM
   end
 
   # Add a State.
+  # @param id [Symbol, #to_sym] The ID of the new state.
+  # @param state [State] Any State based object.
   # @note Use this instead of adding the state to the states array IV.
   def add(id, state)
     return if @states[id]
